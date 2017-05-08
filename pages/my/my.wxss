@@ -1,0 +1,25 @@
+.list{
+    display: flex;
+    padding:30rpx;
+}
+
+.list image{
+    width:220rpx;
+    height:220rpx;
+}
+.list-l{
+    padding:10rpx;
+    margin-right:20rpx;
+}
+.list-r{
+    padding:10rpx;
+}
+.title{
+    font:600 50rpx/60rpx "";
+}
+.list-r text{
+    display: block;
+}
+.me li{
+    display: block;
+}

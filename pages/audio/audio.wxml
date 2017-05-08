@@ -1,0 +1,22 @@
+<audio poster="{{music.poster}}" name="{{music.name}}" author="{{music.author}}" src="{{music.src}}" id="myAudio" controls bindended="nextplay" bindtimeupdate="chage" class="player"></audio>
+<view class="lyric">{{ly}}</view>
+<progress percent="{{p}}" show-info/>
+<view class="button">
+    <button type="primary" bindtap="audioPlay">播放</button>
+    <button type="primary" bindtap="audioPause">暂停</button>
+    <button type="primary" bindtap="audio14">快进</button>
+    <button type="primary" bindtap="audioStart">回到开头</button>
+</view>
+
+<scroll-view scroll-y="true" style="height: {{scrollHeight}}px;">
+    <view class="music" wx:for="{{musicList}}" wx:for-item="i" wx:for-index="idx" wx:key="idx" bindtap="handleTap" data-idx="{{idx}}">
+        <view class="music-l">
+            <image src="{{i.poster}}"></image>
+        </view>
+        <view class="music-r">
+            <view>{{i.name}}</view>
+            <view>{{i.author}}</view>
+        </view>
+    </view>
+</scroll-view>
+

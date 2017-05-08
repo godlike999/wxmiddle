@@ -1,0 +1,33 @@
+.movielist{
+    text-align: center;
+}
+body{
+    background:#eee;
+}
+.box{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background:#eeeeee;
+}
+.value{
+    width:70%;
+    background:#ddd;
+    border:1px solid #aaa;
+    margin:0 auto;
+}
+.movie{
+    width:160px;
+    overflow:hidden;
+    margin:15px 0;
+    font:16px/24px "";
+}
+.movie image{
+    width:160px;
+    height: 140px;
+}
+swiper image{
+    width:100%;
+    height:200;
+}

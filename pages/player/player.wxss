@@ -1,0 +1,62 @@
+.play{
+    width:100%;
+}
+
+#myVideo{
+    width:100%;
+}
+.btn-area{
+    display: flex;
+    justify-content:space-between;
+    padding-left:30rpx;
+}
+.value{
+    width:480rpx;
+    height:60rpx;
+    border:1px solid #eee;
+}
+.btn-area button{
+    width:180rpx;
+    height:60rpx;
+    font:26rpx/60rpx "";
+}
+
+.classname{
+    height:600rpx;
+    margin-top:50rpx;
+}
+scroll-view{
+    border:1px solid #eee;
+    background-color:#faf9de;
+    padding-top:40rpx;
+}
+.head{
+    width:40rpx;
+    height:40rpx;
+    float:right;
+    border-radius:50%;
+    margin-left:15rpx;
+}
+.list{
+    text-align: right;
+    font:26rpx/40rpx "";
+    color:#9f5f9f;
+    padding-right:40rpx;
+    margin:10rpx 0;
+}
+.comment{
+    display: flex;
+    justify-content:space-between;
+    padding-left:30rpx;
+    margin-top:30rpx;
+}
+.value1{
+    width:480rpx;
+    height:60rpx;
+    border:1px solid #eee;
+}
+.comment button{
+    width:180rpx;
+    height:60rpx;
+    font:26rpx/60rpx "";
+}

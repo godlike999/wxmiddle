@@ -1,0 +1,15 @@
+<view class="me">
+    <scroll-view scroll-y="true" style="height: 100%" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+
+    <view class="list" wx:for="{{myList}}" wx:for-index="idx" wx:key="idx" bindtap="click">
+        <view class="list-l">
+            <image src="{{item.url}}"></image>
+        </view>
+        <view class="list-r">
+            <text class="title">{{item.category}}</text>
+            <text>{{item.name}}</text>
+        </view>
+    </view>
+  
+  </scroll-view>
+</view>

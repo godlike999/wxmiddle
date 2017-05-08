@@ -1,0 +1,15 @@
+/**index.wxss**/
+.img{
+  width:100%;
+  height:150px;
+}
+
+.date{
+  margin-top:70rpx;
+  padding-left:50rpx;
+}
+
+.time{
+  text-align: center;
+  font:600 55rpx/70rpx "";
+}

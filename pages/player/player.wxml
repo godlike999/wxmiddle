@@ -1,0 +1,19 @@
+<view class="section tc play">
+  <video id="myVideo" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="btn-area">
+    <input bindblur="bindInputBlur" class="value"/>
+    <button bindtap="bindSendDanmu">发送弹幕</button>
+  </view>
+</view>
+
+<view class="classname">
+    <scroll-view scroll-y="true" style="height: 480rpx;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+        <view class="list" wx:for="{{commentList}}" wx:for-item="comment" wx:for-index="idx" wx:key="idx">
+            {{comment}}<view class="head" style="background:{{col}}"></view>
+        </view>
+    </scroll-view>
+    <view class="comment">
+        <input class="value1" id="val"/>
+        <button bindtap="sub">评论</button>
+    </view>
+</view>
